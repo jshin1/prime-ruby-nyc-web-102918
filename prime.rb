@@ -7,4 +7,5 @@ def prime?(integer)
     new_array.each do |number| 
     false if integer % number == 0}
   end
+  end
 end
