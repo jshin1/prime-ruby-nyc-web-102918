@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(integer)
-  if integer < 2
-    false
+  if integer < 2 || integer.include?(-)
+    return false
   end
   new_array = (2..(integer - 1)).to_a 
   new_array.each do |i| 
@@ -11,6 +11,4 @@ def prime?(integer)
   end
   true
 end
-
-puts prime(-1)
 
