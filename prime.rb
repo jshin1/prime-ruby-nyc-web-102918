@@ -18,5 +18,5 @@ def method
   end
 end
 
-method
+puts method
 
