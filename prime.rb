@@ -12,3 +12,11 @@ def prime?(integer)
   true
 end
 
+def method
+  if -1 < 5
+    true
+  end
+end
+
+method
+
