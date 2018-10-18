@@ -4,7 +4,7 @@ def prime?(integer)
     return false
   end
   new_array = (2..(integer - 1)).to_a 
-  new_array.collect do |i| 
+  new_array.each do |i| 
     if integer % i == 0
       false
     end
@@ -12,4 +12,3 @@ def prime?(integer)
   true
 end
 
--1 < 2
