@@ -5,10 +5,10 @@ def prime?(integer)
   else
     new_array = (2..(integer)).to_a 
     new_array.each do |i| 
-      if integer % i == 0 && i < integer
-        false
-      else
+      if integer % i == 0 && i == integer
         true
+      else
+        false
       end
     end
   end
