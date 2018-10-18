@@ -11,3 +11,5 @@ def prime?(integer)
   end
   true
 end
+
+-1 < 2
